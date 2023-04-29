@@ -4,9 +4,9 @@
 
 The particle system simulates particle behavior on the CPU. The system and the particles can all be controlled by C# scripts, and using Unity’s physics system, the particles can interact with Colliders.[^1] It is commonly used to simulate clouds, flames, and other fluid or dynamic entities. There are two particle system solutions in Unity. The one discussed here is the Built-in Particle System, but more complex and large-scale effects can be achieved with the other solution, the Visual Effect Graph, which runs on the GPU.[^2]
 
-The particle system is simply a component that can be added to any GameObject. As such, it comes with a number of properties that can be changed via the Inspector as well as through C# scripting. These properties are grouped into “modules” in the Inspector.[^3] While it is impractical to cover all of the available properties in this short guide, I will demonstrate the functions of the most important or useful ones with the following two examples.
+The particle system is simply a component that can be added to any GameObject. As such, it comes with a number of properties that can be changed via the Inspector as well as through C# scripting. These properties are grouped into “modules” in the Inspector.[^3] While it is impractical to cover all of the available properties in this short guide, I will demonstrate the functions of the most important or useful ones with the following example.
 
-## Example \#1:  Rain
+## Creating a rain particle system
 
 Note: This tutorial is largely based on [SpeedTutor](https://www.youtube.com/@SpeedTutor)’s YouTube video.[^4] Some information about the properties also comes from the Unity Manual.[^5] Any numeric values below can be altered to your liking.
 
@@ -45,6 +45,13 @@ To create more convincing raindrops, we could add some splashes when the rain hi
 8. Enable the Color over Lifetime module. Follow step 10 of the [section above](#creating-raindrops) to fade in and out the splashes.
 9. To make the splashes grow over time, enable the Size over Lifetime module. The default curve (a linear slope growing from 0.0 to 1.0) should work.
 10. If the particles are too small, adjust Scale in the Transform.
+
+## Further learning
+
+- A quick but almost exhaustive overview [video](https://www.youtube.com/watch?v=FEA1wTMJAR0) on the Particle System.
+- [Tutorial](https://www.youtube.com/watch?v=UllkvfMR96s) on creating a volumetric fog effect with the Particle System.
+- The Unity Manual [page](https://docs.unity3d.com/Manual/VFXGraph.html) on Visual Effect Graph, the GPU-powered particle simulator in Unity.
+
 
 [^1]: https://docs.unity3d.com/Manual/Built-inParticleSystem.html
 [^2]: https://docs.unity3d.com/Manual/ChoosingYourParticleSystem.html

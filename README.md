@@ -52,13 +52,9 @@ To create more convincing raindrops, we could add some splashes when the rain hi
 - [Tutorial](https://www.youtube.com/watch?v=UllkvfMR96s) on creating a volumetric fog effect with the Particle System.
 - The Unity Manual [page](https://docs.unity3d.com/Manual/VFXGraph.html) on Visual Effect Graph, the GPU-powered particle simulator in Unity.
 
-
 [^1]: https://docs.unity3d.com/Manual/Built-inParticleSystem.html
 [^2]: https://docs.unity3d.com/Manual/ChoosingYourParticleSystem.html
 [^3]: https://docs.unity3d.com/Manual/class-ParticleSystem.html
-[^4]: https://www.youtube.com/watch?v=UllkvfMR96s
+[^4]: https://www.youtube.com/watch?v=SrWrUN56UWU
 [^5]: https://docs.unity3d.com/Manual/ParticleSystemModules.html
-[^6]: https://www.youtube.com/watch?v=SrWrUN56UWU
-
-
 
